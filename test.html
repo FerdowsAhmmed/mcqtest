@@ -6,35 +6,152 @@
     <title>Document</title>
   </head>
   <body>
+    <img src="https://seip.basis.org.bd/assets/images/frontend/basis_logo.png" alt=""> <br> <br>
+    <button>Home</button>
     <h1>Registration for SEIP Project</h1>
+    <hr>
     <p>
       Select Course:(In SEIP project one person will be eligible for one course
       only)
     </p>
     <form>
-      <label for="">
-        First Preference: &nbsp; &nbsp;
+      <label for="">First Preference:</label>
         <select name="" id="" required>
           <option value="">Select Course</option>
           <option value="">Customer Support & Service</option>
         </select>
-      </label>
+      
       <br />
       <br />
-      <label for="">Name:
-        <input type="text" placeholder="Your name" />
+      <label for="">Name:</label> <br>
+        <input type="text" placeholder="Type your name here" />
+        <br> <br>
+      <label for="">Father Name:</label> <br>
+        <input type="text" placeholder="Type your father name here" />
+      <label for="">Mother Name:</label> <br>
+        <input type="text" placeholder="Type your mother name here" />
+      <label for="">  Gender:  </label>
+        <select name="" id="" required>
+          <option value="">Select Gender</option>
+          <option value="">Male</option>
+          <option value="">Female</option>
+        </select>
+      <br> <br>
+      <label for="">National ID:  
+      <input type="text" placeholder="Type your NID number here" />
+    </label>
+      <br> <br>
+      <label for="">Date of Birth:  
+      <input type="date" placeholder="select your birth date" />
+    </label>
+    <label for="">  Religion:  
+      <select name="" id="" required>
+        <option value="">Select Religion</option>
+        <option value="">Islam</option>
+        <option value="">Hinduism</option>
+        <option value="">Christianity</option>
+      </select>
+    </label>
+    <label for="">  Ethnic Group:  
+      <select name="" id="" required>
+        <option value="">Select Ethnic Group</option>
+        <option value="">Marma</option>
+        <option value="">Chakma</option>
+        <option value="">Garo</option>
+        <option value="">Santal</option>
+      </select>
+    </label>
+    <br><br>
+    <label for="">Mobile:  
+      <input type="number" placeholder="Type your mobile number" />
+    </label>
+    <label for="">  Email:  
+      <input type="email" placeholder="Type your email here" />
+    </label>
+    <br><br>
+    <label for="">  Is Employed?:  
+      <input type="radio" /> Yes
+      <input type="radio" /> No
+    </label>
+    <label for="">  Monthly Income:  
+      <input type="number" placeholder="In Taka"/>
+    </label>
+      <h1>Present Address</h1>
+      <hr>
+      <label for="">Address:  
+        <input type="text" placeholder="Type your address here"/>
       </label>
-      <br />
-      <br />
-      <label for="">Father Name:
-        <input type="text" placeholder="Your name" />
+      <br><br>
+      <label for="">City:  
+        <input type="text" placeholder="Type city name here"/>
       </label>
-      <label for="">Mother Name:
-        <input type="text" placeholder="Your name" />
+      <label for="">Post Code:  
+        <input type="text" placeholder="Type city name here"/>
       </label>
-      <label for="">Gender:
-        <input type="text" placeholder="Your name" />
+      <br /><br />
+      <label for=""> Division:  
+        <select name="" id="" required>
+          <option value="">Select Division</option>
+          <option value="">Sylhet</option>
+          <option value="">Dhaka</option>
+          <option value="">Borishal</option>
+          <option value="">Bogura</option>
+        </select>
       </label>
+      <label for="">  District:  
+        <select name="" id="" required>
+          <option value="">Select District</option>
+          <option value="">Dhaka</option>
+          <option value="">Moulvibazar</option>
+          <option value="">Sylhet</option>
+          <option value="">Karimganj</option>
+        </select>
+      </label>
+      <label for="">  Sub District:  
+        <select name="" id="" required>
+          <option value="">Select Sub District</option>
+          <option value="">Kamalganj</option>
+          <option value="">Barolekha</option>
+          <option value="">Sreemangal</option>
+          <option value="">Juri</option>
+        </select>
+      </label>
+      <br /><br />
+      <h1>Highest Academic Achievement</h1>
+      <hr>
+      <label for="">  Level of Education:  
+        <select name="" id="" required>
+          <option value="">Select Education Level</option>
+          <option value="">Degree</option>
+          <option value="">Honours</option>
+          <option value="">Diploma</option>
+          <option value="">Masters</option>
+        </select>
+      </label>
+      <label for="">  Institute:  
+        <input type="text" placeholder="Type your institute name here">
+      </label>
+      <br /><br />
+      <label for="">  Subject:
+        <input type="text" placeholder="Type subject here">
+      </label>
+      <label for="">  
+        Year:  
+        <input type="text" placeholder="Type year here">
+      </label>
+      <br /><br />
+      <h1>Photo</h1>
+      <hr>
+      <input type="file">
+      <p>Image size should be 300x300 (Max 100KB) in JPG Format</p>
+      <br /><br />
+      <h1>Security</h1>
+      <hr>
+      <label for="">  Type the code:
+        <input type="text" placeholder="Type the code here">
+      </label>
+     <img src="https://seip.basis.org.bd/captcha/1698050623.5962.jpg" alt="">
+      <br /><br />
       <input type="submit" value="Submit" />
     </form>
   </body>
